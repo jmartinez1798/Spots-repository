@@ -1,0 +1,20 @@
+diff --git a/node_modules/react-native-flatlist-slider/src/FlatListSlider.js b/node_modules/react-native-flatlist-slider/src/FlatListSlider.js
+index b744a0c..663744c 100644
+--- a/node_modules/react-native-flatlist-slider/src/FlatListSlider.js
++++ b/node_modules/react-native-flatlist-slider/src/FlatListSlider.js
+@@ -112,6 +112,15 @@ export default class FlatListSlider extends Component {
+             index,
+           })}
+           data={this.state.data}
++          onScrollToIndexFailed={info => {
++            const wait = new Promise(resolve => setTimeout(resolve, 500));
++            wait.then(() => {
++              this.slider.current?.scrollToIndex({
++                index: info.index,
++                animated: true,
++              });
++            });
++          }}
+         />
+         {this.props.indicator && (
+           <Indicator

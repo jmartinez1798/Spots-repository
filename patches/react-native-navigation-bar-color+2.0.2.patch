@@ -1,0 +1,19 @@
+diff --git a/node_modules/react-native-navigation-bar-color/android/build.gradle b/node_modules/react-native-navigation-bar-color/android/build.gradle
+index 9d285c4..9fb43b8 100644
+--- a/node_modules/react-native-navigation-bar-color/android/build.gradle
++++ b/node_modules/react-native-navigation-bar-color/android/build.gradle
+@@ -10,10 +10,10 @@ buildscript {
+ 
+ apply plugin: 'com.android.library'
+ 
+-def DEFAULT_COMPILE_SDK_VERSION = 28
+-def DEFAULT_BUILD_TOOLS_VERSION = "28.0.3"
+-def DEFAULT_MIN_SDK_VERSION = 16
+-def DEFAULT_TARGET_SDK_VERSION = 26
++def DEFAULT_COMPILE_SDK_VERSION = 31
++def DEFAULT_BUILD_TOOLS_VERSION = "31.0.0"
++def DEFAULT_MIN_SDK_VERSION = 21
++def DEFAULT_TARGET_SDK_VERSION = 31
+ 
+ android {
+    compileSdkVersion rootProject.ext.has('compileSdkVersion') ? rootProject.ext.compileSdkVersion : DEFAULT_COMPILE_SDK_VERSION
