@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "420429820792",
+    "project_id": "spots-backend",
+    "storage_bucket": "spots-backend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420429820792:android:045c4f7140415fc67b4e8d",
+        "android_client_info": {
+          "package_name": "com.spots"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420429820792-c5esffcfbf7n1ibplori6mm6atlrbbjb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.spots",
+            "certificate_hash": "6476d93fda3cb83ee3f80f145aa7513a9ed7af16"
+          }
+        },
+        {
+          "client_id": "420429820792-v77v4hrm9bcta1ia5bembp9qcci9qhmv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqC7GGgj1oIR0zme6cd1k64BXGUAZ9vwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420429820792-v77v4hrm9bcta1ia5bembp9qcci9qhmv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
