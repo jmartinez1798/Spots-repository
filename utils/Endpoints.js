@@ -1,0 +1,32 @@
+export default {
+  user: 'users/',
+  change_number: 'users/number/change',
+  signup_verify: 'users/code/verify/',
+  change_number_verify: 'users/number/verify/',
+  resend_code: 'users/code/resend/',
+
+  events: 'events/',
+  add_to_visitors: 'events/add-to-visitors',
+  locations: 'locations/',
+  spots: 'spots/',
+  like_spot: 'spots/like/',
+  stories: 'stories/',
+
+  posts: 'posts/',
+  posts_following: 'posts/following',
+  poll: 'polls/',
+  like_post: 'posts/like/',
+  react_post: 'posts/react/',
+
+  friends: 'friends/',
+  friendsByUser: 'friends/user/',
+  my_friends: 'friends/my',
+  groups: 'groups/',
+  chats: 'chats/',
+  messages: 'messages/',
+  comments: 'comments/',
+  live_streams: 'live-streams/',
+  notifications: 'notifications/',
+  followers: 'followers/',
+  towns: 'towns/',
+};
